@@ -1,0 +1,8 @@
+rm -r -R /usr/include/libsoal
+mkdir /usr/include/libsoal
+cp *.h /usr/include/libsoal
+cp *.so /usr/lib
+
+chmod 755 /usr/lib/libsoalcommon.so
+chmod 755 /usr/include/libsoal/*.h
+ldconfig

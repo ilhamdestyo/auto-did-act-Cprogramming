@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="mainWindow">
+    <property name="can_focus">False</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkStack" id="stk1">
+            <property name="width_request">441</property>
+            <property name="height_request">120</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkFixed" id="stkfixed1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkButton" id="forsoal1">
+                    <property name="label" translatable="yes">SOAL 1</property>
+                    <property name="width_request">82</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ubah soal1</property>
+                    <signal name="clicked" handler="on_forsoal1_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="forsoal2">
+                    <property name="label" translatable="yes">SOAL 2</property>
+                    <property name="width_request">82</property>
+                    <property name="height_request">34</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ubah soal2</property>
+                    <signal name="clicked" handler="on_forsoal2_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">95</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="forsoal3">
+                    <property name="label" translatable="yes">SOAL 3</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ubah soal3</property>
+                    <signal name="clicked" handler="on_forsoal3_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">180</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="forsoal4">
+                    <property name="label" translatable="yes">SOAL 4</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ubah soal4</property>
+                    <signal name="clicked" handler="on_forsoal4_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">265</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="forsoal5">
+                    <property name="label" translatable="yes">SOAL 5</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ubah soal5</property>
+                    <signal name="clicked" handler="on_forsoal5_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">350</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="labelsoal">
+                    <property name="width_request">190</property>
+                    <property name="height_request">48</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">Show Status</property>
+                    <property name="label" translatable="yes">SHOW STATUS</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Ubuntu Mono 10"/>
+                      <attribute name="style" value="normal"/>
+                      <attribute name="weight" value="semilight"/>
+                      <attribute name="variant" value="normal"/>
+                      <attribute name="foreground" value="#ffffffffffff"/>
+                      <attribute name="background" value="#000000000000"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">57</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page0</property>
+                <property name="title" translatable="yes">SD Card</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFixed" id="stkfixed2">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkSwitch" id="swLED1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <signal name="state-set" handler="on_swLED1_state_set" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">10</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="labelled">
+                    <property name="width_request">190</property>
+                    <property name="height_request">48</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">Show Status</property>
+                    <property name="label" translatable="yes">LED STATUS</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Ubuntu Mono 10"/>
+                      <attribute name="style" value="normal"/>
+                      <attribute name="weight" value="semilight"/>
+                      <attribute name="variant" value="normal"/>
+                      <attribute name="foreground" value="#ffffffffffff"/>
+                      <attribute name="background" value="#000000000000"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">57</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page1</property>
+                <property name="title" translatable="yes">LED</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkFixed" id="stkfixed3">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkLabel" id="labeltext">
+                    <property name="width_request">190</property>
+                    <property name="height_request">48</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">Show Status</property>
+                    <attributes>
+                      <attribute name="font-desc" value="Ubuntu Mono 10"/>
+                      <attribute name="style" value="normal"/>
+                      <attribute name="weight" value="semilight"/>
+                      <attribute name="variant" value="normal"/>
+                      <attribute name="foreground" value="#ffffffffffff"/>
+                      <attribute name="background" value="#000000000000"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">57</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkEntry" id="entryText">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="placeholder_text" translatable="yes">Type Here</property>
+                    <signal name="activate" handler="on_entryText_changed" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">10</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="buttonHello">
+                    <property name="label" translatable="yes">Hello World!</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                    <property name="tooltip_text" translatable="yes">Ubah soal5</property>
+                    <signal name="clicked" handler="on_buttonHello_clicked" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">215</property>
+                    <property name="y">20</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">page2</property>
+                <property name="title" translatable="yes">Print Text</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStackSwitcher" id="sw1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="stack">stk1</property>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

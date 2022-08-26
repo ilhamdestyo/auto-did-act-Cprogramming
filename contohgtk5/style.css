@@ -1,0 +1,644 @@
+/* GLOBAL STYLE */
+menuitem{
+     background: rgb(255, 196, 0);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+}
+
+menuitem:hover{
+     background: whitesmoke;
+}
+
+button{
+     background: rgb(255,236,196);
+     border: none;
+     color: black;
+}
+
+#myWindow{
+     background-image: url('img/desk.png');
+}
+
+#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8, #bt9, #bt10{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#bt1:hover, #bt2:hover, #bt3:hover, #bt4:hover, #bt5:hover, #bt6:hover, #bt7:hover, #bt8:hover, #bt9:hover, #bt10:hover{
+     background-color: darkcyan;
+}
+
+#bt1_c, #bt2_c, #bt3_c, #bt4_c, #bt5_c, #bt6_c, #bt7_c, #bt8_c, #bt9_c, #bt10_c{
+     background-color: white;
+     border:none;
+     border-radius: 22px;
+}
+
+#cek_order_btn{
+     background-image: none;
+     border: none;
+     background-color: white;
+     border-radius: 22px;
+}
+
+#cek_order_btn:hover{
+     background-color: darkcyan;
+}
+
+#main_label{
+     background-color: white;
+     color: darkred;
+     border-radius: 22px;
+}
+/* WINDOW PULSA & DATA */
+#windowPud{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#pud_bt_main{
+     background-image: none;
+
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#pud_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#pud_menu_bt1, #pud_menu_bt2{
+     background-image: none;
+     background-color: white;
+     color : black;
+     border : none;
+     background: linear-gradient(to right, orange, red);
+     border-radius: 32px;
+}
+
+#pud_menu_bt1:hover, #pud_menu_bt2:hover{
+     background-image: none;
+     background-color: darkcyan;
+}
+
+#pud_menu_bt1_lbl, #pud_menu_bt2_lbl{
+     background-color: white;
+     border-radius: 32px;
+}
+
+#pud_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#pud_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+/* WINDOW PULSA */
+#windowPulsa{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#pulsa_boxC_label{
+     font-family: sans-serif;
+     color: white;
+     font-size: 17pt;
+     font-weight: bold;
+}
+
+#pulsa_bt_main{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#pulsa_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#pulsa_menu_bt1, #pulsa_menu_bt2, #pulsa_menu_bt3, #pulsa_menu_bt4, #pulsa_menu_bt5{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 32px;
+}
+
+#pulsa_menu_bt1:hover, #pulsa_menu_bt2:hover, #pulsa_menu_bt3:hover, #pulsa_menu_bt4:hover, #pulsa_menu_bt5:hover{
+     background-color: darkcyan;
+}
+
+#pulsa_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#pulsa_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+/* WINDOW Nominal Pulsa */
+#windowNompul{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#nompul_bt_main{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#nompul_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#nompul_menu_bt1, #nompul_menu_bt2, #nompul_menu_bt3, #nompul_menu_bt4, #nompul_menu_bt5{
+     background-image: none;
+     background-color: white;
+     color : black;
+     border : none;
+     background: linear-gradient(to right, orange, red);
+     border-radius: 32px;
+}
+
+#nompul_menu_bt1:hover, #nompul_menu_bt2:hover, #nompul_menu_bt3:hover, #nompul_menu_bt4:hover, #nompul_menu_bt5:hover{
+     background-image: none;
+     background-color: darkcyan;
+}
+
+#nompul_menu_bt1_lbl, #nompul_menu_bt2_lbl, #nompul_menu_bt3_lbl, #nompul_menu_bt4_lbl, #nompul_menu_bt5_lbl{
+     background-color: white;
+     border-radius: 32px;
+}
+
+#nompul_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#nompul_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+#nompul_menuBox_label{
+     color: black;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 17pt;
+}
+
+/* WINDOW NUMBER INPUT */
+#windowNumi{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#numi_bt_main{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#numi_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#numi_numBox{
+     border-bottom: solid 5px brown;
+}
+
+#numi_number{
+     font-family: sans-serif;
+     font-size: 28pt;
+     font-weight: bold;
+     color: black;
+}
+
+
+#numi_num_bt1, #numi_num_bt2, #numi_num_bt3, #numi_num_bt4, #numi_num_bt5, #numi_num_bt6, #numi_num_bt7, #numi_num_bt8, #numi_num_bt9, #numi_num_bt0, #numi_num_btDel, #numi_num_btEnt{
+     background-image: none;
+     background-color: darkgrey;
+     border-radius: 100px;
+     font-size: 17pt;
+     font-weight: bold;
+     color: black;
+     border : none;
+}
+
+#numi_num_bt1:hover, #numi_num_bt2:hover, #numi_num_bt3:hover, #numi_num_bt4:hover, #numi_num_bt5:hover, #numi_num_bt6:hover, #numi_num_bt7:hover, #numi_num_bt8:hover, #numi_num_bt9:hover, #numi_num_bt0:hover, #numi_num_btDel:hover, #numi_num_btEnt:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#numi_num_btDel, #numi_num_btEnt{
+     font-size: 10pt;
+}
+
+#numi_menuBox_bt_kembali{
+     background-image: none;
+     border: none;
+     background-color: transparent;
+     border-radius: 22px;
+}
+
+#numi_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+/* WINDOW METODE PEMBAYARAN */
+#windowMpb{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#mpb_bt_main{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#mpb_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#mpb_menu_bt1, #mpb_menu_bt2{
+     background-image: none;
+     background-color: white;
+     color : black;
+     border : none;
+     background: linear-gradient(to right, orange, red);
+     border-radius: 32px;
+}
+
+#mpb_menu_bt1:hover, #mpb_menu_bt2:hover{
+     background-image: none;
+     background-color: darkcyan;
+}
+
+#mpb_menu_bt1_lbl{
+     background-color: white;
+     border-radius: 32px;
+}
+
+#mpb_menu_bt2_lbl{
+     background-color: white;
+     border-radius: 32px;
+}
+
+#mpb_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#mpb_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+/* WINDOW PAKET INTERNET */
+#windowPnet{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#pnet_bt_main{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#pnet_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#pnet_menu_bt1, #pnet_menu_bt2, #pnet_menu_bt3, #pnet_menu_bt4, #pnet_menu_bt5, #pnet_menu_bt6, #pnet_menu_bt7, #pnet_menu_bt8{
+     background-image: none;
+     background-color: white;
+     color : black;
+     border : none;
+     background: linear-gradient(to right, orange, red);
+     border-radius: 32px;
+}
+
+#pnet_menu_bt1:hover, #pnet_menu_bt2:hover, #pnet_menu_bt3:hover, #pnet_menu_bt4:hover, #pnet_menu_bt5:hover, #pnet_menu_bt6:hover, #pnet_menu_bt7:hover, #pnet_menu_bt8:hover{
+     background-image: none;
+     background-color: darkcyan;
+}
+
+#pnet_menu_bt1_lbl, #pnet_menu_bt2_lbl, #pnet_menu_bt3_lbl, #pnet_menu_bt4_lbl, #pnet_menu_bt5_lbl, #pnet_menu_bt6_lbl, #pnet_menu_bt7_lbl, #pnet_menu_bt8_lbl{
+     background-color: white;
+     border-radius: 32px;
+}
+
+#pnet_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#pnet_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+#pnet_menuBox_label{
+     color: black;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 17pt;
+}
+
+/* WINDOW LISTRIK */
+#windowListrik{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+
+#listrik_boxC_label{
+     font-family: sans-serif;
+     font-size: 17pt;
+     font-weight: bold;
+}
+
+#listrik_bt_main{
+     background-image: none;
+
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#listrik_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#listrik_menu_bt1, #listrik_menu_bt2, #listrik_menu_bt3{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 32px;
+}
+
+#listrik_menu_bt1:hover, #listrik_menu_bt2:hover, #listrik_menu_bt3:hover{
+     background-color: darkcyan;
+}
+
+#listrik_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#listrik_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+/* WINDOW INTERNET / TV */
+#windowIntv{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+#intv_boxC_label{
+     font-family: sans-serif;
+     font-size: 16pt;
+     font-weight: bold;
+}
+
+#intv_bt_main{
+     background-image: none;
+
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#intv_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#intv_menu_bt1, #intv_menu_bt2, #intv_menu_bt3, #intv_menu_bt4, #intv_menu_bt5, #intv_menu_bt6, #intv_menu_bt7, #intv_menu_bt8, #intv_menu_bt9{
+     background-image: none;
+     background-color: white;
+     border: none;
+     border-radius: 32px;
+}
+
+#intv_menu_bt1:hover, #intv_menu_bt2:hover, #intv_menu_bt3:hover, #intv_menu_bt4:hover, #intv_menu_bt5:hover, #intv_menu_bt6:hover, #intv_menu_bt7:hover, #intv_menu_bt8:hover, #intv_menu_bt9:hover{
+     background-color: darkcyan;
+}
+
+#intv_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#intv_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+/* WWINDOW CEK ORDER */
+#windowCko{
+     background-image: none;
+     background-color: whitesmoke;
+     border: none;
+     box-shadow: 0px 0px 200px 200px black;
+     padding: 30px;
+}
+
+#cko_numBox{
+     border-bottom: solid 5px brown;
+}
+
+#cko_number{
+     padding-bottom: 10px;
+     font-family: sans-serif;
+     font-size: 28pt;
+     font-weight: bold;
+     /*color: black;*/
+}
+
+#cko_grid_num{
+     padding: 1px;
+}
+
+#cko_num_bt1, #cko_num_bt2, #cko_num_bt3, #cko_num_bt4, #cko_num_bt5, #cko_num_bt6, #cko_num_bt7, #cko_num_bt8, #cko_num_bt9, #cko_num_bt0, #cko_num_btDel, #cko_num_btEnt{
+     background-image: none;
+     background-color: darkgrey;
+     border-radius: 100px;
+     font-size: 17pt;
+     font-weight: bold;
+     color: black;
+     border : none;
+}
+
+#cko_num_bt1:hover, #cko_num_bt2:hover, #cko_num_bt3:hover, #cko_num_bt4:hover, #cko_num_bt5:hover, #cko_num_bt6:hover, #cko_num_bt7:hover, #cko_num_bt8:hover, #cko_num_bt9:hover, #cko_num_bt0:hover, #cko_num_btDel:hover, #cko_num_btEnt:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#cko_num_btDel, #cko_num_btEnt{
+     font-size: 10pt;
+}
+
+#cko_close_btn{
+     background-image: none;
+     border: none;
+     background-color: #cccccc;
+     color: #999999;
+     border-radius: 100px;
+}
+
+#cko_close_btn:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+/* WINDOW PAJAK */
+#windowPajak{
+     background-image: url('img/desk2.png');
+     background-repeat: no-repeat;
+     background-position: left center;
+     background-size: cover;
+}
+
+
+#pajak_boxC_label{
+     font-family: sans-serif;
+     font-size: 17pt;
+     font-weight: bold;
+}
+
+#pajak_bt_main{
+     background-image: none;
+
+     background-color: white;
+     border: none;
+     border-radius: 12px;
+     padding: 10px;
+     color: brown;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14pt;
+}
+
+#pajak_bt_main:hover{
+     background-color: darkcyan;
+     color: white;
+}
+
+#pajak_bt_ok{
+     background-image: none;
+     border: none;
+     background: linear-gradient(to right, orange, red);
+     border-radius: 22px;
+}
+
+#pajak_bt_ok:hover{
+     background: darkcyan;
+}
+
+#pajak_bt_ok_label{
+     font-size: 17pt;
+     color: black;
+     font-weight: bold;
+     background-color: white;
+     border-radius: 22px;
+}
+
+#pajak_menuBox_bt_kembali{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+}
+
+#pajak_menuBox_bt_kembali:hover{
+     background-color: white;
+}
+
+#pajak_lbl_jenis_produk{
+     color: black;
+     font-size: 17pt;
+}
+
+#pajak_combo_jenis_produk, #pajak_combo_pilihan{
+     background-image: none;
+     font-size: 14pt;
+}

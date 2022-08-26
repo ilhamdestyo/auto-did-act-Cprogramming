@@ -1,0 +1,14 @@
+window{
+	background-color:#008588;
+}
+grid{
+	background-color:#90EE90;
+	border-radius:100%;
+}
+calculate{
+	background-color:red;
+	color:yellow;
+	border-color:black;
+	border-width:5px;
+	border-radius: 100%;
+}
